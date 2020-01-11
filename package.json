@@ -1,0 +1,26 @@
+{
+  "name": "@funcmaticjs/jwks-token-verifier",
+  "version": "0.0.2",
+  "description": "Verify a JWT token using public keys from a JWKS URI.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Daniel Jhin Yoo <danieljyoo@gmail.com> (https://github.com/danieljyoo)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/funcmaticjs/jwks-token-verifier.git"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "jwks-rsa": "^1.5.1"
+  },
+  "devDependencies": {
+    "dotenv": "^6.2.0",
+    "jest": "^24.8.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
