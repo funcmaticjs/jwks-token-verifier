@@ -13,7 +13,7 @@
     "url": "https://github.com/funcmaticjs/jwks-token-verifier.git"
   },
   "dependencies": {
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "jwks-rsa": "^1.5.1"
   },
   "devDependencies": {
